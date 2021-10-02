@@ -3,6 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{07651E1E-1C70-44E9-B9CF-4DF4BC4FFCF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "manga-library.Api", "src\manga-library.Api\manga-library.Api.csproj", "{9F44C50A-5F63-42C5-9573-B6CFC9D475A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "manga-library.Tests", "src\manga-library.Tests\manga-library.Tests.csproj", "{2AC1709F-492A-46A8-87C3-756A7B994CA9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -14,5 +20,35 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F44C50A-5F63-42C5-9573-B6CFC9D475A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F44C50A-5F63-42C5-9573-B6CFC9D475A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F44C50A-5F63-42C5-9573-B6CFC9D475A1}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{9F44C50A-5F63-42C5-9573-B6CFC9D475A1}.Debug|x64.Build.0 = Debug|Any CPU
+		{9F44C50A-5F63-42C5-9573-B6CFC9D475A1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9F44C50A-5F63-42C5-9573-B6CFC9D475A1}.Debug|x86.Build.0 = Debug|Any CPU
+		{9F44C50A-5F63-42C5-9573-B6CFC9D475A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F44C50A-5F63-42C5-9573-B6CFC9D475A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F44C50A-5F63-42C5-9573-B6CFC9D475A1}.Release|x64.ActiveCfg = Release|Any CPU
+		{9F44C50A-5F63-42C5-9573-B6CFC9D475A1}.Release|x64.Build.0 = Release|Any CPU
+		{9F44C50A-5F63-42C5-9573-B6CFC9D475A1}.Release|x86.ActiveCfg = Release|Any CPU
+		{9F44C50A-5F63-42C5-9573-B6CFC9D475A1}.Release|x86.Build.0 = Release|Any CPU
+		{2AC1709F-492A-46A8-87C3-756A7B994CA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AC1709F-492A-46A8-87C3-756A7B994CA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AC1709F-492A-46A8-87C3-756A7B994CA9}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2AC1709F-492A-46A8-87C3-756A7B994CA9}.Debug|x64.Build.0 = Debug|Any CPU
+		{2AC1709F-492A-46A8-87C3-756A7B994CA9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2AC1709F-492A-46A8-87C3-756A7B994CA9}.Debug|x86.Build.0 = Debug|Any CPU
+		{2AC1709F-492A-46A8-87C3-756A7B994CA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AC1709F-492A-46A8-87C3-756A7B994CA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AC1709F-492A-46A8-87C3-756A7B994CA9}.Release|x64.ActiveCfg = Release|Any CPU
+		{2AC1709F-492A-46A8-87C3-756A7B994CA9}.Release|x64.Build.0 = Release|Any CPU
+		{2AC1709F-492A-46A8-87C3-756A7B994CA9}.Release|x86.ActiveCfg = Release|Any CPU
+		{2AC1709F-492A-46A8-87C3-756A7B994CA9}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9F44C50A-5F63-42C5-9573-B6CFC9D475A1} = {07651E1E-1C70-44E9-B9CF-4DF4BC4FFCF1}
+		{2AC1709F-492A-46A8-87C3-756A7B994CA9} = {07651E1E-1C70-44E9-B9CF-4DF4BC4FFCF1}
 	EndGlobalSection
 EndGlobal
