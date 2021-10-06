@@ -1,26 +1,29 @@
 {
   "format": 1,
   "restore": {
-    "/home/leonardo/Documents/Code/manga-library/src/manga-library.Api/manga-library.Api.csproj": {}
+    "D:\\Documentos\\Code\\Estudos\\manga-library-api\\src\\manga-library.Api\\manga-library.Api.csproj": {}
   },
   "projects": {
-    "/home/leonardo/Documents/Code/manga-library/src/manga-library.Api/manga-library.Api.csproj": {
+    "D:\\Documentos\\Code\\Estudos\\manga-library-api\\src\\manga-library.Api\\manga-library.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/leonardo/Documents/Code/manga-library/src/manga-library.Api/manga-library.Api.csproj",
+        "projectUniqueName": "D:\\Documentos\\Code\\Estudos\\manga-library-api\\src\\manga-library.Api\\manga-library.Api.csproj",
         "projectName": "manga-library.Api",
-        "projectPath": "/home/leonardo/Documents/Code/manga-library/src/manga-library.Api/manga-library.Api.csproj",
-        "packagesPath": "/home/leonardo/.nuget/packages/",
-        "outputPath": "/home/leonardo/Documents/Code/manga-library/src/manga-library.Api/obj/",
+        "projectPath": "D:\\Documentos\\Code\\Estudos\\manga-library-api\\src\\manga-library.Api\\manga-library.Api.csproj",
+        "packagesPath": "C:\\Users\\leoca\\.nuget\\packages\\",
+        "outputPath": "D:\\Documentos\\Code\\Estudos\\manga-library-api\\src\\manga-library.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/leonardo/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\leoca\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/mottu-ops/_packaging/mottu-ops%40Local/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
@@ -38,6 +41,18 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
@@ -61,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

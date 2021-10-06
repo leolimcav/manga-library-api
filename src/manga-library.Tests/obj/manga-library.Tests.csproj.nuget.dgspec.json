@@ -1,26 +1,29 @@
 {
   "format": 1,
   "restore": {
-    "/home/leonardo/Documents/Code/manga-library/src/manga-library.Tests/manga-library.Tests.csproj": {}
+    "D:\\Documentos\\Code\\Estudos\\manga-library-api\\src\\manga-library.Tests\\manga-library.Tests.csproj": {}
   },
   "projects": {
-    "/home/leonardo/Documents/Code/manga-library/src/manga-library.Tests/manga-library.Tests.csproj": {
+    "D:\\Documentos\\Code\\Estudos\\manga-library-api\\src\\manga-library.Tests\\manga-library.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/leonardo/Documents/Code/manga-library/src/manga-library.Tests/manga-library.Tests.csproj",
+        "projectUniqueName": "D:\\Documentos\\Code\\Estudos\\manga-library-api\\src\\manga-library.Tests\\manga-library.Tests.csproj",
         "projectName": "manga-library.Tests",
-        "projectPath": "/home/leonardo/Documents/Code/manga-library/src/manga-library.Tests/manga-library.Tests.csproj",
-        "packagesPath": "/home/leonardo/.nuget/packages/",
-        "outputPath": "/home/leonardo/Documents/Code/manga-library/src/manga-library.Tests/obj/",
+        "projectPath": "D:\\Documentos\\Code\\Estudos\\manga-library-api\\src\\manga-library.Tests\\manga-library.Tests.csproj",
+        "packagesPath": "C:\\Users\\leoca\\.nuget\\packages\\",
+        "outputPath": "D:\\Documentos\\Code\\Estudos\\manga-library-api\\src\\manga-library.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/leonardo/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\leoca\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/mottu-ops/_packaging/mottu-ops%40Local/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
@@ -38,9 +41,17 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.9.4, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.16.1, )"
             },
             "coverlet.collector": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -74,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

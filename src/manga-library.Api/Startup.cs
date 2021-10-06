@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using manga_library.Api.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -32,6 +33,7 @@ namespace manga_library.Api
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "manga_library.Api", Version = "v1" });
             });
+            services.AddAutoMapper(typeof(AutoMapperSetup.AutoMapperSetup));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
