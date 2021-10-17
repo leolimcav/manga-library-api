@@ -31,7 +31,7 @@ namespace manga_library.Api
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "manga_library.Api", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Manga Library API", Version = "v1" });
             });
             services.AddAutoMapper(typeof(AutoMapperSetup.AutoMapperSetup));
         }
@@ -43,7 +43,7 @@ namespace manga_library.Api
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "manga_library.Api v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "MangaLibrary API V1"));
             }
 
             app.UseHttpsRedirection();

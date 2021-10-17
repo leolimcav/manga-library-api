@@ -23,7 +23,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Services" />
+    <ProjectReference Include="..\manga-library.Api\manga-library.Api.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="UnitTests" />
   </ItemGroup>
 
 </Project>
