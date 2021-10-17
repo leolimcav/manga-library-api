@@ -3,14 +3,14 @@ using System.Collections.Generic;
 
 namespace manga_library.Api.Models
 {
-    public class Users
+    public class Readers
     {
         public int Id { get; set; }
-        public string Nome { get; set; }
+        public string Name { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }
-        public List<Mangas> Favorites { get; set; }
+        public List<Projects> Favorites { get; set; }
     }
 }

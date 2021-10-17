@@ -2,7 +2,7 @@
 
 namespace manga_library.Api.Models
 {
-    public class Mangas
+    public class Projects
     {
         public int Id { get; set; }
         public int Title { get; set; }
