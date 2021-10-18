@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "nTWFjj8YYHethZaH57NN3RtOAY/HNXFrTGPuN5KnO6iQyXBn+HNkvl2/hXaUDIugd1Zf4/Rk+JmBGNXa76ow7w==",
+  "dgSpecHash": "d4c4j0fF1y3OlcTrCJcqURDHyo/HWCIatVuWUGP1wafjPucCOj0akxszvuPeLqSTS4KoZw0zbxaV5mN8U/a47w==",
   "success": true,
   "projectFilePath": "D:\\Documentos\\Code\\Estudos\\manga-library-api\\src\\manga-library.Tests\\manga-library.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\leoca\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\leoca\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
+    "C:\\Users\\leoca\\.nuget\\packages\\bcrypt.net-next\\4.0.2\\bcrypt.net-next.4.0.2.nupkg.sha512",
     "C:\\Users\\leoca\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\leoca\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\leoca\\.nuget\\packages\\fluentassertions\\6.1.0\\fluentassertions.6.1.0.nupkg.sha512",

@@ -2,7 +2,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using manga_library.Api.Data;
+using manga_library.Api.Data.Repositories;
+using manga_library.Api.Interfaces.Repositories;
+using manga_library.Api.Interfaces.Services;
 using manga_library.Api.Models;
+using manga_library.Api.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -33,6 +38,9 @@ namespace manga_library.Api
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Manga Library API", Version = "v1" });
             });
+            services.AddDbContext<AppDbContext>();
+            services.AddScoped<IReaderRepository, ReaderRepository>();
+            services.AddScoped<IReaderService, ReaderService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

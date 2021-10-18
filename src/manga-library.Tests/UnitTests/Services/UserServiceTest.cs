@@ -1,6 +1,11 @@
-﻿using Xunit;
+﻿using System.Threading.Tasks;
+using Xunit;
+using Moq;
 using FluentAssertions;
+using manga_library.Api.DTO;
+using manga_library.Api.Interfaces.Repositories;
 using manga_library.Api.Interfaces.Services;
+using manga_library.Api.Models;
 using manga_library.Api.Services;
 
 namespace manga_library.Tests.UnitTests.Services
@@ -11,14 +16,25 @@ namespace manga_library.Tests.UnitTests.Services
 
         public UserServiceTest()
         {
-            this._readerService = new ReaderService();
+            var mock = new Mock<IReaderRepository>();
+            mock.Setup(repo => repo.AddAsync(It.IsAny<Readers>()).Result)
+                .Returns<Readers>((entity) => (entity));
+            _readerService = new ReaderService(mock.Object);
         }
+        
         [Fact]
-        public void ShouldCreateUser()
+        public async Task ShouldCreateANewReader()
         {
-            var newReader = _readerService.CreateReader("Leo");
+            var readerToCreate = new CreateReaderDTO()
+            {
+                Name = "Leo",
+                Email = "leonardo123k@gmail.com",
+                Password = "123456"
+            };
 
-            newReader.Name.Should().Be("Leo");
+            var createdReader = await _readerService.CreateReader(readerToCreate); 
+
+            createdReader.Name.Should().Be("Leo");
         }
     }
 }

@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "gjkcFilPiske37ZDv1CDqqbKzST7TgHd3/8W7qdyBnkZ7uAPXo4IYxurku3yft4JILAw8brjVp8Bm9HlWhnTgQ==",
+  "dgSpecHash": "F+vsCk+BqnHGfqiyzq6TG++Jj30DgJvcn2c85+o7XrMSqCXhQ/YoF5BAms/NOE7alXQqikSyv2pxf7Bm5lWfdw==",
   "success": true,
   "projectFilePath": "D:\\Documentos\\Code\\Estudos\\manga-library-api\\src\\manga-library.Api\\manga-library.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\leoca\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\leoca\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
+    "C:\\Users\\leoca\\.nuget\\packages\\bcrypt.net-next\\4.0.2\\bcrypt.net-next.4.0.2.nupkg.sha512",
     "C:\\Users\\leoca\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\leoca\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\leoca\\.nuget\\packages\\microsoft.data.sqlite.core\\5.0.11\\microsoft.data.sqlite.core.5.0.11.nupkg.sha512",
